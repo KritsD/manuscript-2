@@ -74,3 +74,14 @@ h2, h4 {
 		transform:none ;
 		-webkit-transform: rotate(170deg) ;
 	}
+
+
+	p.readingresponse {
+		font-size: 9px ;
+		line-height: 16px ;
+	}
+
+	p.grey {
+		font-weight: 50px ;
+		color: grey;
+	}

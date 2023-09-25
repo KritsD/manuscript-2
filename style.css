@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+
+body, footer {
+	color: rgb(249, 11, 11);
+}
+
+h3, p, h5 {
+	font-family: 'Inter', sans-serif;
+}
+
+h2, h4 {
+		font-family:'EB Garamond', serif;
+}
+
+	h2 {
+		font-size: 40px ;
+		line-height: 100px;
+	}
+
+	h3 {
+		font-size: 96px ;
+		line-height: 135.5px;
+		text-transform: uppercase ;
+	}
+
+	h4 {
+		font-size: 36px ;
+	}
+
+	h5 {
+		font-size: 9px ;
+		line-height: 16px ;
+	}
+
+	p {
+		font-size: 16px ;
+		line-height: 30px ;
+	}
+
+	#header {
+		padding: auto;
+		font-weight: bold ;
+	}
+
+	#quoteone {
+		transform: skew(-0deg, -15deg) ;
+		line-height:normal
+	}
+	
+	#outline {
+		-webkit-text-stroke-width: 1px;
+		-webkit-text-stroke-color: black;
+		-webkit-text-fill-color: transparent;
+		transform:none ;
+		-webkit-transform: rotate(180deg) ;
+	}
+
+	#quotetwo {
+		transform: skew(5deg, 10deg) ;
+		line-height:normal
+	}
+
+	#angle {
+		transform: none ;
+		-webkit-transform: rotate(-10deg) ;
+		line-height:normal
+	}
+
+	#outlinetwo {
+		-webkit-text-stroke-width: 1px;
+		-webkit-text-stroke-color: black;
+		-webkit-text-fill-color: transparent;
+		transform:none ;
+		-webkit-transform: rotate(170deg) ;
+	}

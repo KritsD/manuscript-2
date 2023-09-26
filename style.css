@@ -1,15 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
 
-body, footer {
+body {
 	color: rgb(0, 0, 0);
+	padding-top: 40px ;
+	padding-left: 40px ;
+	padding-right: 40px ;
+	padding-bottom: 40px ;
+}
+
+footer {
+	color: black ;
+	padding-top: 40px ;
 }
 
 h3, p, h5 {
 	font-family: 'Inter', sans-serif;
 }
 
-h2, h4 {
+h2, h4, a {
 		font-family:'EB Garamond', serif;
 }
 
@@ -22,6 +31,7 @@ h2, h4 {
 		font-size: 96px ;
 		line-height: 135.5px;
 		text-transform: uppercase ;
+		font-weight: 300 ;
 	}
 
 	h4 {
@@ -34,19 +44,21 @@ h2, h4 {
 	}
 
 	p {
-		font-size: 16px ;
-		line-height: 16px ;
-		font-weight: 50px ;
+		font-size: 20px ;
+		line-height: 34px ;
+		font-weight: 300 ;
 	}
 
 	#header {
 		padding: auto;
 		font-weight: bold ;
+		text-align: center;
 	}
 
 	#quoteone {
-		transform: skew(-0deg, -15deg) ;
-		line-height:normal
+		transform: skew(-0deg, -10deg) ;
+		transform: rotate(-20deg) ;
+		line-height:normal ;
 	}
 	
 	#outline {
@@ -59,6 +71,7 @@ h2, h4 {
 
 	#quotetwo {
 		transform: skew(5deg, 10deg) ;
+		transform: rotate(10deg);
 		line-height:normal
 	}
 
@@ -78,11 +91,107 @@ h2, h4 {
 
 
 	p.readingresponse {
-		font-size: 9px ;
-		line-height: 16px ;
+		font-size: 14px ;
+		line-height: 24px ;
 	}
 
-	p.grey {
+	p.greyleft {
 		font-weight: 50px ;
 		color: grey;
+		text-align: left ;
 	}
+
+	p.greyright {
+		font-weight: 50px ;
+		color: grey ;
+		text-align: right ;
+	}
+
+	.topcolumn {
+			float: left;
+			width: 33.33% ;
+	}
+
+	/* Clear floats after the columns */
+	.emptyrow:after {
+		content: "";
+		display: table;
+		clear: both;
+		padding-bottom: 0px ;
+	}
+
+	.slantfontcolumn {
+		float: left;
+		padding-top: 160px ;
+	}
+
+.left {
+	width: 10% ;
+}
+
+.middle {
+	width: 40% ;
+}
+
+.right {
+	width: 60% ;
+}
+
+.column {
+	float: left;
+	padding-bottom: 160px ;
+}
+
+.leftone {
+	width: 30% ;
+}
+
+.middleone {
+	width:60% ;
+}
+
+.rightone {
+	width: 10% ;
+}
+
+.tableone {
+	border-spacing: 80px;
+}
+
+.topleft {
+	text-align: left;
+}
+
+.topright {
+	text-align: right;
+}
+
+.emptyrowtwo:before {
+	content: "";
+	display: table;
+	clear: both;
+	padding-top: 40px;
+	padding-bottom: 40px ;
+}
+
+.slantfontcolumntwo {
+	float: left;
+	padding-top: 80px ;
+}
+
+.lefttwo {
+width: 20% ;
+}
+
+.middletwo {
+width: 50% ;
+}
+
+.righttwo {
+width: 30% ;
+}
+
+.fontcolumn {
+	float: left;
+	padding-top: 160px ;
+}

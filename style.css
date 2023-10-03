@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
 
+<<<<<<< Updated upstream
 body {
 	color: rgb(0, 0, 0);
 	padding-top: 40px ;
@@ -12,32 +13,52 @@ body {
 footer {
 	color: black ;
 	padding-top: 40px ;
+=======
+
+body {
+    color: rgb(0, 0, 0);
+    padding: 40px 60px 40px 60px;
+>>>>>>> Stashed changes
 }
 
 h3, p, h5 {
-	font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 h2, h4, a {
+<<<<<<< Updated upstream
 		font-family:'EB Garamond', serif;
+=======
+        font-family:'EB Garamond', serif;
+>>>>>>> Stashed changes
 }
 
-	h2 {
-		font-size: 40px ;
-		line-height: 100px;
-	}
+  h2 {
+        font-size: 40px ;
+        line-height: 100px;
+    }
 
+<<<<<<< Updated upstream
 	h3 {
 		font-size: 96px ;
 		line-height: 135.5px;
 		text-transform: uppercase ;
 		font-weight: 300 ;
 	}
+=======
+    h3 {
+        font-size: 96px ;
+        line-height: 135.5px;
+        text-transform: uppercase ;
+        font-weight: 300 ;
+    }
+>>>>>>> Stashed changes
 
-	h4 {
-		font-size: 36px ;
-	}
+    h4 {
+        font-size: 36px ;
+    }
 
+<<<<<<< Updated upstream
 	h5 {
 		font-size: 9px ;
 		line-height: 24px ;
@@ -195,3 +216,178 @@ width: 30% ;
 	float: left;
 	padding-top: 160px ;
 }
+=======
+    h5 {
+        font-size: 9px ;
+        line-height: 24px ;
+    }
+
+
+p {
+    font-size: 20px;
+    line-height: 34px ;
+    font-weight: 300 ;
+}
+
+
+section:nth-child(1) p {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+    padding: 5px;
+    white-space: pre;
+    text-align: center;
+    width: 400px;
+}
+
+#headinggreyl {
+    font-weight: 50px ;
+    color: grey;
+    text-align: left;
+}
+
+#headinggreyr {
+    font-weight: 50px ;
+    color: grey;
+    text-align: right;
+}
+
+#headingblack {
+    font-weight: 500 ;
+    text-transform: uppercase;
+}
+
+
+
+
+section:nth-child(2) aside {
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+    margin-right: initial;
+    width: 800px;
+}
+
+section:after { /* This is the “clearfix”. */
+    clear: both;
+    content: '';
+    display: block;
+}
+
+#quoteone {
+    transform: skew(-0deg, -10deg) ;
+    transform: rotate(-20deg) ;
+    line-height:normal ;
+    width: 500px;
+}
+
+#outline {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: transparent;
+    transform:none ;
+    -webkit-transform: rotate(180deg) ;
+}
+
+section:nth-child(3) h3 {
+    display: inline-block;
+    white-space: pre;
+    text-align: left;
+}
+
+section:nth-child(3) h4 {
+    display: inline-block;
+    white-space: pre;
+    text-align: left;
+}
+
+section:nth-child(4) h3 {
+    display: inline-block;
+    white-space: pre;
+    text-align: left;
+}
+
+section:nth-child(4) h4 {
+    display: inline-block;
+    white-space: pre;
+    text-align: left;
+}
+
+section:nth-child(5) h3 {
+    display: inline-block;
+    white-space: pre;
+    text-align: left;
+}
+
+section:nth-child(5) h4 {
+    display: inline-block;
+    white-space: pre;
+    text-align: left;
+}
+
+section:nth-child(6) h3 {
+    display: inline-block;
+    white-space: pre;
+    text-align: left;
+}
+
+section:nth-child(6) h4 {
+    display: inline-block;
+    white-space: pre;
+    text-align: left;
+    margin-bottom: 200px;
+}
+
+#quotetwo {
+    transform: skew(5deg, 10deg) ;
+    transform: rotate(10deg);
+    line-height:normal;
+    width: 500px;
+}
+
+section:nth-child(7) aside {
+    float: right;
+    padding: 80px;
+    margin-top: 600px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 80px;
+}
+
+section:nth-child(8) aside {
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 200px;
+    margin-right: initial;
+    width: 800px;
+}
+
+#angle {
+    transform: none ;
+    -webkit-transform: rotate(-10deg) ;
+    line-height:normal
+}
+
+#outlinetwo {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: transparent;
+    transform:none ;
+    -webkit-transform: rotate(170deg) ;
+    padding-top: 100px;
+}
+
+section:nth-child(10) p {
+    font-size: 14px ;
+    line-height: 24px ;
+    padding-left: 300px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+>>>>>>> Stashed changes
